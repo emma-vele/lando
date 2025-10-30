@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+/* Import composants */
+@import url("container.css");
+@import url("avatar.css");
+@import url("button.css");
+@import url("banner.css");
+@import url("card.css");
+@import url("moutain.css");
+
+
+/* Styles globaux */
+body {
+font-family: 'Lora', serif;
+font-size: 18px;
+margin: 0;
+background-color: #F8F5F1;
+color: #2A2A2A;
+}
+
+
+h1, h2, h3 {
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+
+a {
+text-decoration: none;
+}

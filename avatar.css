@@ -1,0 +1,45 @@
+
+.floating-avatar {
+  position: fixed;
+  bottom: 30px;
+  right: 40px; 
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  z-index: 1000; 
+}
+
+
+.avatar-photo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid #F2E8D5; 
+  object-fit: cover;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.avatar-photo:hover {
+  transform: scale(1.05);
+}
+
+
+.avatar-btn {
+  background-color: #F2E8D5; /* crème */
+  color: #1C1C1C; /* noir charbon */
+  border: none;
+  padding: 10px 18px;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.avatar-btn:hover {
+  background-color: #E8DBC0; /* crème plus chaud au survol */
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}

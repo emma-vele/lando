@@ -1,0 +1,22 @@
+.btn-green {
+  padding: 15px 35px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #1A1A1A; 
+  background:#F2E8D5;  
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25); /* léger relief */
+  transition: all 0.3s ease;
+}
+
+.btn-green:hover {
+  background: #E8DBC0; /* légèrement plus lumineux au hover */
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.35);
+} 
+
+
